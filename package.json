@@ -1,0 +1,14 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "mock server",
+  "type": "module",
+  "scripts": {
+    "start:jsonserver": "json-server --watch db.json --port 3000"
+  },
+  "author": "Francisco Aros",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

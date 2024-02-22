@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan",
+      "lastname": "Pérez",
+      "email": "juan@email.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "María",
+      "lastname": "Gómez",
+      "email": "maria@email.com",
+      "password": "123456"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Comprar leche",
+      "description": "Ir al supermercado",
+      "completed": false,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Hacer ejercicio",
+      "description": "Correr en el parque",
+      "completed": false,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Llamar a Juan",
+      "description": "Confirmar reunión",
+      "completed": false,
+      "userId": 2
+    }
+  ]
+}
