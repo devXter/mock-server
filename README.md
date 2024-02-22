@@ -53,3 +53,20 @@ Este proyecto utiliza json-server para simular un servidor RESTful con datos moc
     }
 
    http://localhost:3000/tasks
+
+6. **PUT Task**: Endpoint para editar una tarea:
+
+   ```bash
+    {
+        "title": "Comprar pan",
+        "description": "Ir al supermercado",
+        "completed": false,
+        "userId": 2
+    }
+
+   http://localhost:3000/tasks/1
+
+7. **DELETE Task**: Endpoint para eliminar una tarea:
+
+   ```bash
+   http://localhost:3000/tasks/1
